@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt" data-lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfólio pessoal de Cleiton Tchambul, com formação em Suporte Informático e Electricidade Industrial.">
+
+    <meta name="author" content="Cleiton Tchambul">
+
+    <title>Cleiton Tchambul | Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="container nav-container">
+
+            <a href="#inicio" class="logo">
+                CT<span>.</span>
+            </a>
+
+            <nav class="navigation" id="navigation">
+                <a href="#inicio" data-i18n="navHome">Início</a>
+                <a href="#sobre" data-i18n="navAbout">Sobre mim</a>
+                <a href="#competencias" data-i18n="navSkills">Competências</a>
+                <a href="#projectos" data-i18n="navProjects">Projectos</a>
+                <a href="#contactos" data-i18n="navContact">Contactos</a>
+            </nav>
+
+            <div class="nav-actions">
+                <label for="language" class="sr-only">Idioma</label>
+                <select id="language" aria-label="Seleccionar idioma">
+                    <option value="pt">PT</option>
+                    <option value="en">EN</option>
+                </select>
+
+                <button
+                    class="menu-toggle"
+                    id="menu-toggle"
+                    type="button"
+                    aria-label="Abrir menu"
+                    aria-expanded="false"
+                >
+                    ☰
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- INÍCIO -->
+        <section class="hero section" id="inicio">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <p class="eyebrow" data-i18n="heroEyebrow">
+                        PORTFÓLIO PESSOAL
+                    </p>
+
+                    <h1>
+                        <span data-i18n="heroGreeting">Olá, sou</span>
+                        <span class="highlight">Cleiton Tchambul.</span>
+                    </h1>
+
+                    <p class="hero-description" data-i18n="heroDescription">
+                        Tenho formação em Suporte Informático e Electricidade
+                        Industrial. Interesso-me por tecnologia, programação,
+                        desenvolvimento de aplicações e robótica.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projectos" class="button button-primary"
+                           data-i18n="heroButtonProject">
+                            Ver projecto
+                        </a>
+
+                        <a href="#contactos" class="button button-secondary"
+                           data-i18n="heroButtonContact">
+                            Entrar em contacto
+                        </a>
+                    </div>
+
+                    <p class="availability">
+                        <span class="status-dot"></span>
+                        <span data-i18n="heroStatus">
+                            Aberto a aprender e desenvolver novas ideias
+                        </span>
+                    </p>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <img
+                        src="assets/cleiton-terno.jpg"
+                        alt="Fotografia de Cleiton Tchambul"
+                        class="hero-image"
+                    >
+                    
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SOBRE MIM -->
+        <section class="section about-section" id="sobre">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="aboutEyebrow">QUEM SOU</p>
+                    <h2 data-i18n="aboutTitle">Sobre mim</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p data-i18n="aboutParagraph1">
+                            Sou uma pessoa interessada em tecnologia e na
+                            resolução de problemas. A minha formação em
+                            Suporte Informático e Electricidade Industrial
+                            permite-me explorar diferentes áreas técnicas.
+                        </p>
+
+                        <p data-i18n="aboutParagraph2">
+                            Tenho conhecimentos de programação em Python,
+                            interesse no desenvolvimento de aplicações e
+                            vontade de continuar a aprender através de
+                            projectos práticos.
+                        </p>
+
+                        <p data-i18n="aboutParagraph3">
+                            Actualmente, estou a desenvolver o Eat MZ,
+                            um projecto relacionado com a descoberta e
+                            encomenda de comida.
+                        </p>
+                    </div>
+
+                    <aside class="education-card">
+                        <p class="card-label" data-i18n="educationLabel">
+                            FORMAÇÃO
+                        </p>
+
+                        <div class="education-item">
+                            <span class="education-number">01</span>
+                            <div>
+                                <h3 data-i18n="educationITTitle">
+                                    Suporte Informático
+                                </h3>
+                                <p data-i18n="educationITPlace">
+                                    Instituto de Transportes e Comunicações
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="education-item">
+                            <span class="education-number">02</span>
+                            <div>
+                                <h3 data-i18n="educationElectricalTitle">
+                                    Electricidade Industrial
+                                </h3>
+                                <p data-i18n="educationElectricalDescription">
+                                    Formação técnica em electricidade industrial
+                                </p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- COMPETÊNCIAS -->
+        <section class="section skills-section" id="competencias">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="skillsEyebrow">
+                        CONHECIMENTOS
+                    </p>
+                    <h2 data-i18n="skillsTitle">Competências</h2>
+                    <p class="section-description" data-i18n="skillsIntro">
+                        Áreas técnicas em que tenho formação, conhecimentos
+                        ou interesse de desenvolvimento.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">01</div>
+                        <h3 data-i18n="skillITTitle">Informática</h3>
+                        <ul>
+                            <li data-i18n="skillIT1">Suporte informático</li>
+                            <li data-i18n="skillIT2">Programação em Python — nível júnior</li>
+                            <li data-i18n="skillIT3">Interesse em desenvolvimento de aplicações</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">02</div>
+                        <h3 data-i18n="skillElectricalTitle">
+                            Electricidade Industrial
+                        </h3>
+                        <ul>
+                            <li data-i18n="skillElectrical1">
+                                Instalações eléctricas monofásicas
+                            </li>
+                            <li data-i18n="skillElectrical2">
+                                Instalações eléctricas trifásicas
+                            </li>
+                            <li data-i18n="skillElectrical3">
+                                Identificação e resolução de problemas eléctricos
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">03</div>
+                        <h3 data-i18n="skillPersonalTitle">
+                            Habilidades pessoais
+                        </h3>
+                        <ul>
+                            <li data-i18n="skillPersonal1">
+                                Resolução do cubo mágico
+                            </li>
+                            <li data-i18n="skillPersonal2">
+                                Interesse por raciocínio lógico
+                            </li>
+                            <li data-i18n="skillPersonal3">
+                                Aprendizagem através de desafios técnicos
+                            </li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- INTERESSES E IDIOMAS -->
+        <section class="section interests-section" id="interesses">
+            <div class="container interests-grid">
+
+                <div>
+                    <div class="section-heading">
+                        <p class="eyebrow" data-i18n="interestsEyebrow">
+                            O QUE ME MOTIVA
+                        </p>
+                        <h2 data-i18n="interestsTitle">Interesses</h2>
+                    </div>
+
+                    <div class="tag-list">
+                        <span class="tag" data-i18n="interest1">Tecnologia</span>
+                        <span class="tag" data-i18n="interest2">Informática</span>
+                        <span class="tag" data-i18n="interest3">
+                            Desenvolvimento de aplicações
+                        </span>
+                        <span class="tag" data-i18n="interest4">
+                            Projectos digitais
+                        </span>
+                        <span class="tag" data-i18n="interest5">Robótica</span>
+                    </div>
+                </div>
+
+                <div class="languages-block">
+                    <div class="section-heading">
+                        <p class="eyebrow" data-i18n="languagesEyebrow">
+                            COMUNICAÇÃO
+                        </p>
+                        <h2 data-i18n="languagesTitle">Idiomas</h2>
+                    </div>
+
+                    <ul class="language-list">
+                        <li data-i18n="languagePortuguese">Português</li>
+                        <li data-i18n="languageEnglish">Inglês</li>
+                        <li data-i18n="languageChangana">Changana</li>
+                    </ul>
+
+                    
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PROJECTOS -->
+        <section class="section projects-section" id="projectos">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="projectsEyebrow">
+                        TRABALHO EM DESENVOLVIMENTO
+                    </p>
+                    <h2 data-i18n="projectsTitle">Projectos</h2>
+                    <p class="section-description" data-i18n="projectsIntro">
+                        Um projecto pessoal que estou a desenvolver.
+                    </p>
+                </div>
+
+                <article class="project-card">
+
+                    <div class="project-image-wrapper">
+                        <img
+                            src="assets/Eat-mz .png"
+                            alt="Imagem ilustrativa do projecto Eat MZ"
+                            class="project-image"
+                            loading="lazy"
+                        >
+
+                        <span class="project-status" data-i18n="projectStatus">
+                            Em desenvolvimento
+                        </span>
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-category" data-i18n="projectCategory">
+                            APLICAÇÃO DIGITAL
+                        </p>
+
+                        <h3>Eat MZ</h3>
+
+                        <p data-i18n="projectDescription">
+                            O Eat MZ é um projecto de descoberta e encomenda
+                            de comida que pretende aproximar clientes e
+                            vendedores de produtos alimentares, facilitando
+                            a consulta de ofertas e a realização de encomendas.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Food discovery</span>
+                            <span>Encomendas</span>
+                            <span>Maputo</span>
+                        </div>
+
+                        <a href="#contactos" class="text-link"
+                           data-i18n="projectLink">
+                            Saber mais sobre o projecto →
+                        </a>
+                    </div>
+
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- CONTACTOS -->
+        <section class="section contact-section" id="contactos">
+            <div class="container contact-grid">
+
+                <div class="contact-intro">
+                    <p class="eyebrow" data-i18n="contactEyebrow">
+                        VAMOS CONVERSAR
+                    </p>
+
+                    <h2 data-i18n="contactTitle">
+                        Entrar em contacto
+                    </h2>
+
+                    <p data-i18n="contactDescription">
+                        Para conversar sobre tecnologia, projectos ou
+                        oportunidades, podes entrar em contacto através
+                        dos meios abaixo.
+                    </p>
+                </div>
+
+                <div class="contact-details">
+
+                    <div class="contact-item">
+                        <span class="contact-label" data-i18n="emailLabel">
+                            E-mail
+                        </span>
+                        <a href="mailto:Cleitontchambul8@gmail.com">
+                            Cleitontchambul8@gmail.com
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="contact-label" data-i18n="phoneLabel">
+                            Telefone
+                        </span>
+                        <a href="tel:877566246">877 566 246</a>
+                        <a href="tel:878866246">878 866 246</a>
+                        <a href="tel:845866246">845 866 246</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© <span id="current-year"></span> Cleiton Tchambul</p>
+
+            <a href="#inicio" data-i18n="backToTop">
+                Voltar ao início ↑
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
