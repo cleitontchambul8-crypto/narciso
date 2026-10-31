@@ -28,6 +28,7 @@
                 <a href="#inicio" data-i18n="navHome">Início</a>
                 <a href="#sobre" data-i18n="navAbout">Sobre mim</a>
                 <a href="#competencias" data-i18n="navSkills">Competências</a>
+                <a href="#servicos" data-i18n="navServices">Serviços</a>
                 <a href="#projectos" data-i18n="navProjects">Projectos</a>
                 <a href="#contactos" data-i18n="navContact">Contactos</a>
             </nav>
@@ -82,6 +83,11 @@
                             Ver projecto
                         </a>
 
+                        <a href="assets/Curriculum_Vitae_Cleiton.pdf" class="button button-secondary" target="_blank" rel="noopener"
+                           data-i18n="heroButtonCV">
+                            Ver CV
+                        </a>
+
                         <a href="#contactos" class="button button-secondary"
                            data-i18n="heroButtonContact">
                             Entrar em contacto
@@ -98,7 +104,7 @@
 
                 <div class="hero-image-wrapper">
                     <img
-                        src="./cleiton-terno.jpg"
+                        src="assets/cleiton-terno.jpg"
                         alt="Fotografia de Cleiton Tchambul"
                         class="hero-image"
                     >
@@ -244,48 +250,58 @@
         </section>
 
 
-        <!-- INTERESSES E IDIOMAS -->
-        <section class="section interests-section" id="interesses">
-            <div class="container interests-grid">
-
-                <div>
-                    <div class="section-heading">
-                        <p class="eyebrow" data-i18n="interestsEyebrow">
-                            O QUE ME MOTIVA
-                        </p>
-                        <h2 data-i18n="interestsTitle">Interesses</h2>
-                    </div>
-
-                    <div class="tag-list">
-                        <span class="tag" data-i18n="interest1">Tecnologia</span>
-                        <span class="tag" data-i18n="interest2">Informática</span>
-                        <span class="tag" data-i18n="interest3">
-                            Desenvolvimento de aplicações
-                        </span>
-                        <span class="tag" data-i18n="interest4">
-                            Projectos digitais
-                        </span>
-                        <span class="tag" data-i18n="interest5">Robótica</span>
-                    </div>
+        <!-- SERVIÇOS -->
+        <section class="section services-section" id="servicos">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="servicesEyebrow">COMO POSSO AJUDAR</p>
+                    <h2 data-i18n="servicesTitle">Meus serviços</h2>
+                    <p class="section-description" data-i18n="servicesIntro">Serviços nas áreas técnicas em que tenho conhecimentos e experiência prática.</p>
                 </div>
-
-                <div class="languages-block">
-                    <div class="section-heading">
-                        <p class="eyebrow" data-i18n="languagesEyebrow">
-                            COMUNICAÇÃO
-                        </p>
-                        <h2 data-i18n="languagesTitle">Idiomas</h2>
-                    </div>
-
-                    <ul class="language-list">
-                        <li data-i18n="languagePortuguese">Português</li>
-                        <li data-i18n="languageEnglish">Inglês</li>
-                        <li data-i18n="languageChangana">Changana</li>
-                    </ul>
-
-                    
+                <div class="services-grid">
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">⌘</span>
+                        <p class="project-category" data-i18n="serviceITCategory">INFORMÁTICA</p>
+                        <h3 data-i18n="serviceITTitle">Manutenção de computadores</h3>
+                        <p data-i18n="serviceITDescription">Montagem e desmontagem de computadores, diagnóstico e resolução de problemas comuns de hardware.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">&lt;/&gt;</span>
+                        <p class="project-category" data-i18n="serviceWebCategory">DESENVOLVIMENTO WEB</p>
+                        <h3 data-i18n="serviceWebTitle">Criação de páginas Web</h3>
+                        <p data-i18n="serviceWebDescription">Criação de páginas Web com HTML e CSS, com foco numa estrutura clara e apresentação simples.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">⌁</span>
+                        <p class="project-category" data-i18n="serviceNetworkCategory">REDES</p>
+                        <h3 data-i18n="serviceNetworkTitle">Apoio em redes informáticas</h3>
+                        <p data-i18n="serviceNetworkDescription">Apoio em tarefas básicas de redes e configuração em ambiente de aprendizagem.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">ϟ</span>
+                        <p class="project-category" data-i18n="serviceElectricalCategory">ELECTRICIDADE</p>
+                        <h3 data-i18n="serviceElectricalTitle">Instalações eléctricas</h3>
+                        <p data-i18n="serviceElectricalDescription">Trabalhos de instalações monofásicas e trifásicas adequados à formação e respeitando as normas de segurança.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">＋</span>
+                        <p class="project-category" data-i18n="serviceRepairCategory">ELECTRÓNICA E REPARAÇÃO</p>
+                        <h3 data-i18n="serviceRepairTitle">Diagnóstico de pequenos aparelhos</h3>
+                        <p data-i18n="serviceRepairDescription">Diagnóstico e reparação de pequenos aparelhos eléctricos, como ferros de engomar, chaleiras e secadores, conforme o tipo de avaria.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">⌖</span>
+                        <p class="project-category" data-i18n="serviceCADCategory">DESENHO TÉCNICO</p>
+                        <h3 data-i18n="serviceCADTitle">Desenho técnico em AutoCAD</h3>
+                        <p data-i18n="serviceCADDescription">Elaboração de desenhos técnicos de plantas e circuitos eléctricos, de acordo com os requisitos do trabalho.</p>
+                    </article>
                 </div>
-
+                <div class="languages-strip">
+                    <strong data-i18n="languagesTitle">Idiomas</strong>
+                    <span data-i18n="languagePortuguese">Português</span>
+                    <span data-i18n="languageEnglish">Inglês</span>
+                    <span data-i18n="languageChangana">Changana</span>
+                </div>
             </div>
         </section>
 
@@ -296,11 +312,11 @@
 
                 <div class="section-heading">
                     <p class="eyebrow" data-i18n="projectsEyebrow">
-                        TRABALHO EM DESENVOLVIMENTO
+                        EXPERIÊNCIA PRÁTICA
                     </p>
-                    <h2 data-i18n="projectsTitle">Projectos</h2>
+                    <h2 data-i18n="projectsTitle">Projectos e trabalhos práticos</h2>
                     <p class="section-description" data-i18n="projectsIntro">
-                        Um projecto pessoal que estou a desenvolver.
+                        Trabalhos de diferentes áreas técnicas, com evidências disponíveis para consulta.
                     </p>
                 </div>
 
@@ -308,7 +324,7 @@
 
                     <div class="project-image-wrapper">
                         <img
-                            src="./Eat-mz .png"
+                            src="assets/Eat-mz .png"
                             alt="Imagem ilustrativa do projecto Eat MZ"
                             class="project-image"
                             loading="lazy"
@@ -346,6 +362,95 @@
                     </div>
 
                 </article>
+
+                <div class="portfolio-projects-grid">
+                    <article class="portfolio-project-card">
+                        <img src="assets/Screenshot_20261024_184829_Word.jpg" alt="Montagem prática de circuito electrónico" loading="lazy">
+                        <div class="portfolio-project-content">
+                            <p class="project-category" data-i18n="electronicsCategory">ELECTRÓNICA</p>
+                            <h3 data-i18n="electronicsTitle">Carregador desenvolvido em aula</h3>
+                            <p data-i18n="electronicsDescription">Registo fotográfico de um trabalho prático realizado no módulo de electrónica.</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-project-card">
+                        <img src="assets/Screenshot_20261024_185439_Word.jpg" alt="Chaleira eléctrica e cabo de alimentação" loading="lazy">
+                        <div class="portfolio-project-content">
+                            <p class="project-category" data-i18n="repairCategory">REPARAÇÃO</p>
+                            <h3 data-i18n="repairTitle">Observação e reparação de aparelhos eléctricos</h3>
+                            <p data-i18n="repairDescription">Registo de um aparelho eléctrico e da sua ligação. A descrição limita-se ao que é mostrado na imagem.</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-project-card">
+                        <img src="assets/Screenshot_20261024_181839_Word.jpg" alt="Peça metálica produzida num trabalho prático" loading="lazy">
+                        <div class="portfolio-project-content">
+                            <p class="project-category" data-i18n="workshopCategory">TRABALHO PRÁTICO</p>
+                            <h3 data-i18n="metalworkTitle">Peças e exercícios de oficina</h3>
+                            <p data-i18n="metalworkDescription">Evidências fotográficas de peças produzidas durante exercícios práticos, incluindo trabalhos de oficina.</p>
+                            <div class="project-tags"><span data-i18n="metalTag1">Peças metálicas</span><span data-i18n="metalTag2">Prática</span></div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-project-card">
+                        <div class="project-file-icon" aria-hidden="true">DWG</div>
+                        <div class="portfolio-project-content">
+                            <p class="project-category" data-i18n="cadCategory">DESENHO TÉCNICO</p>
+                            <h3 data-i18n="cadTitle">Planta de casa no AutoCAD</h3>
+                            <p data-i18n="cadDescription">Ficheiro de desenho técnico disponibilizado para consulta. Para visualizar o DWG, é necessário um programa compatível com AutoCAD.</p>
+                            <a class="text-link" href="assets/Claiton.dwg" download data-i18n="downloadDWG">Descarregar ficheiro DWG ↓</a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-project-card">
+                        <div class="project-file-icon" aria-hidden="true">CV3</div>
+                        <div class="portfolio-project-content">
+                            <p class="project-category" data-i18n="electricalCategory">ELECTRICIDADE INDUSTRIAL</p>
+                            <h3 data-i18n="houseProjectTitle">Redimensionamento das Cargas de uma Casa Tipo 3</h3>
+                            <p data-i18n="houseProjectDescription">Trabalho prático de culminação do curso de Electricidade Industrial CV3, realizado no Instituto de Transportes e Comunicações.</p>
+                            <a class="text-link" href="assets/EPI_Cleiton%201-1.pdf" target="_blank" rel="noopener" data-i18n="viewReport">Consultar o relatório em PDF →</a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-project-card">
+                        <div class="project-file-icon" aria-hidden="true">PKT</div>
+                        <div class="portfolio-project-content">
+                            <p class="project-category" data-i18n="networkCategory">REDES DE COMPUTADORES</p>
+                            <h3 data-i18n="networkTitle">Exercícios no Cisco Packet Tracer</h3>
+                            <p data-i18n="networkDescription">Quatro ficheiros de exercícios práticos de redes. Descarrega-os para abrir no Cisco Packet Tracer.</p>
+                            <div class="project-file-links">
+                                <a class="text-link" href="assets/FICHA-RA2-CLEITON%20NARCISO/EXERCICI1/Resolucao%20do%20exercio%20numero1.pkt" download>Exercício 1 ↓</a>
+                                <a class="text-link" href="assets/FICHA-RA2-CLEITON%20NARCISO/EXERCICI2/RESOLUCAO%20DO%20EXERCICIO%202.pkt" download>Exercício 2 ↓</a>
+                                <a class="text-link" href="assets/FICHA-RA2-CLEITON%20NARCISO/EXERCICI3/EXERCICIO%203.pkt" download>Exercício 3 ↓</a>
+                                <a class="text-link" href="assets/FICHA-RA2-CLEITON%20NARCISO/EXERCICI4/exercicio%204.pkt" download>Exercício 4 ↓</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="video-evidence">
+                    <div class="section-heading">
+                        <p class="eyebrow" data-i18n="videoEyebrow">DEMONSTRAÇÕES</p>
+                        <h3 data-i18n="videoTitle">Vídeos de trabalhos práticos</h3>
+                        <p class="section-description" data-i18n="videoDescription">Vídeos fornecidos como evidência prática. Usa os controlos para reproduzir.</p>
+                    </div>
+                    <div class="video-grid">
+                        <figure class="evidence-video">
+                            <video controls preload="metadata" playsinline>
+                                <source src="assets/VID-20260607-WA0000.mp4" type="video/mp4">
+                                O teu navegador não suporta a reprodução deste vídeo.
+                            </video>
+                            <figcaption data-i18n="videoOneCaption">Demonstração prática — vídeo 1</figcaption>
+                        </figure>
+                        <figure class="evidence-video">
+                            <video controls preload="metadata" playsinline>
+                                <source src="assets/VID-20261024-WA0064.mp4" type="video/mp4">
+                                O teu navegador não suporta a reprodução deste vídeo.
+                            </video>
+                            <figcaption data-i18n="videoTwoCaption">Demonstração prática — vídeo 2</figcaption>
+                        </figure>
+                    </div>
+                </div>
 
             </div>
         </section>
